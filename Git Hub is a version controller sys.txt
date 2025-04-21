@@ -1,0 +1,50 @@
+Git Hub: is a version controller system.
+-which is platform used to store project related files and source code.
+-which is monitor the changes in files
+   who modified
+   when modified
+   why modified
+   which modified
+
+Problem before git hub 
+-How to integrate all developers code in single place.
+-How to track the changes in code or file.
+
+
+
+When you install git on own pc then open git bash.
+git bash is cli software which is used to communicate with git hub repository.
+open git bash and configure your name and email.
+
+sambh@Sambhaji MINGW64 /d/Git Practice
+$ git config --global user.name "sambhaji"
+
+sambh@Sambhaji MINGW64 /d/Git Practice
+$ git config --global user.email "sambhajiwankhede11@gmail.com"
+
+configuring name and email is just one time process in git bash.
+
+Git: is a client which is used to communicate with git hub repository.
+-need to install this client each developer who want to communicate with git hub repository.
+
+Git Hub Repository: is a place where project is store one project have one repository.
+-name the repository same as project name.
+
+we can create 2 types of repository in git hub
+1)public(anybody can see & you choose who can commit)
+2)private(you choose who can see & who can commit)
+
+project Git repo url: https://github.com/sambhajiwankhede/sbi_loans_app.git
+
+Git Architecture:
+-------------------
+1)Working Tree: project folder/
+2)Staging Area: represent which file is eligible for commit
+3)Local Repo: in our system git hub maintain one repository
+4)Central Repo(Remote)
+
+             -----------------------------------------------------------------------            www.github.com
+              git init                    git status                                            ----------------
+Developer -> Working Tree -> git add -> Stagging Area -> git commit -> Local Repo -> git push -> Central Repo
+             -----------------------------------------------------------------------            -----------------
+                             our system(PC)
